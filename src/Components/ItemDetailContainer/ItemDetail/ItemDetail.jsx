@@ -21,7 +21,7 @@ const ItemDetail = ({ item }) => {
                     <button onClick={() => alert('Proximamente...')}>Comprar</button>
                 </div>
                 <div className='btnVolver'>
-                    <span><Link as={Link} to="/" className='Navlink'>Volver</Link></span>
+                    <span><Link as={Link} to="/" className='btnVolver'>Volver</Link></span>
                 </div>
             </div>
         </div>

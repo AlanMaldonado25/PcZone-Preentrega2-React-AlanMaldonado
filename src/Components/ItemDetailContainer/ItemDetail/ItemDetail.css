@@ -4,6 +4,7 @@
 .itemBody{
     display: flex;
     flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     background-color: var(--claro);
@@ -56,4 +57,5 @@
     border-radius: .5rem;
     background-color: var(--oscuro);
     justify-content: center;
+    width: 10rem;
 }

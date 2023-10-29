@@ -6,6 +6,9 @@
     height: 30rem;
     padding: 1rem;
 }
+.cardText{
+    font-weight: 600;
+}
 .cardImg{
     height: 15rem;
     width: auto;
@@ -17,4 +20,6 @@
 .cardPrecio{
     margin-top: 1rem;
     margin-bottom: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
