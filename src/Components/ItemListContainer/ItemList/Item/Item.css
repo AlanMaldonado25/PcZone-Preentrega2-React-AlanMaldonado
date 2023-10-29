@@ -1,0 +1,20 @@
+.ItemContainer{
+    width: 25rem;
+    height: 30rem;
+}
+.card{
+    height: 30rem;
+    padding: 1rem;
+}
+.cardImg{
+    height: 15rem;
+    width: auto;
+    object-fit: cover;
+}
+.cardBtn{
+    background-color: var(--secondary);
+}
+.cardPrecio{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}

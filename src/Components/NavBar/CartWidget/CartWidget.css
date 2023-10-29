@@ -1,0 +1,27 @@
+:root{
+    --primary:#1095e0;
+    --secondary:#0E4B8E;
+    --tertiary:#84D8FA;
+    --oscuro:#140E32;
+    --claro:#FFFEFC;
+}
+
+.cartContainer{
+    font-size: 2rem;
+}
+.cart{
+    color: var(--primary);
+
+}
+.cart:hover{
+    color: var(--tertiary);
+}
+.cartContainer span{
+    position: absolute;
+    background-color: var(--claro);
+    border-radius: 50%;
+    width: 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary);
+}

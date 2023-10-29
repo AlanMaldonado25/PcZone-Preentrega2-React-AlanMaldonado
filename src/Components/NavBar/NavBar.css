@@ -1,0 +1,40 @@
+:root{
+    --primary:#1095e0;
+    --secondary:#0E4B8E;
+    --tertiary:#84D8FA;
+    --oscuro:#140E32;
+    --claro:#FFFEFC;
+}
+
+.logo{
+    height: 6rem;
+}
+.NavBar{
+    width:100%;
+    background-color: var(--secondary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.Navlink{
+    color: var(--primary);
+    font-size: 1.5rem;
+    transition: .3s;
+    margin-left: .5rem;
+}
+.Navlink:hover{
+    color: var(--tertiary);
+}
+.nav-list{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: transparent;
+    padding: .75em .5em;
+    border: none;
+}

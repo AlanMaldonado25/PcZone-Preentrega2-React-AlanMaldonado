@@ -1,0 +1,59 @@
+.itemDetail{
+    margin-top: 7rem;
+}
+.itemBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--claro);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+.itemImg{
+    height: 20rem;
+}
+.itemName{
+    font-size: 2rem;
+}
+.itemPrecio{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.itemStock{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.agregarCantidad{
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+.btnAccion{
+    background-color: var(--claro);
+    color: var(--oscuro);
+    border: 1px solid var(--oscuro);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador{
+    padding:0 1rem ;
+    margin: 0;
+    height: 3rem;
+    align-items: center;
+}
+.btnVolver{
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: var(--oscuro);
+    justify-content: center;
+}
